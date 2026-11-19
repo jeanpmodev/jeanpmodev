@@ -6,12 +6,12 @@ import requests
 API_KEY = os.environ["PEPY_API_KEY"]
 
 PACKAGES = [
-    {"pypi": "django-octo", "repo": "django_octo", "dp_slug": "django_octo"},
-    {"pypi": "django-octo-seo", "repo": "django_octo_seo", "dp_slug": "django_octo_seo"},
-    {"pypi": "django-octo-security", "repo": "django_octo_security", "dp_slug": "django_octo_security"},
-    {"pypi": "django_octo_aurora", "repo": "django_octo_aurora", "dp_slug": "django_octo_aurora"},
-    {"pypi": "django_octo_uml", "repo": "django_octo_uml", "dp_slug": "django_octo_uml"},
-    {"pypi": "django-octo-qa", "repo": "django_octo_qa", "dp_slug": "django_octo_qa"},
+    {"pypi": "django-octo", "repo": "django_octo", "dp_slug": "django_octo", "docs_path": ""},
+    {"pypi": "django-octo-seo", "repo": "django_octo_seo", "dp_slug": "django_octo_seo", "docs_path": "seo/"},
+    {"pypi": "django-octo-security", "repo": "django_octo_security", "dp_slug": "django_octo_security", "docs_path": "security/"},
+    {"pypi": "django-octo-aurora", "repo": "django_octo_aurora", "dp_slug": "django_octo_aurora", "docs_path": "aurora/"},
+    {"pypi": "django-octo-uml", "repo": "django_octo_uml", "dp_slug": "django_octo_uml", "docs_path": "uml/"},
+    {"pypi": "django-octo-qa", "repo": "django_octo_qa", "dp_slug": "django_octo_qa", "docs_path": "qa/"},
 ]
 
 GITHUB_USER = "jeanpmodev"
@@ -19,6 +19,7 @@ API_BASE = "".join(["https:", "//", "api.", "pepy.", "tech/", "api/", "v2/", "pr
 WEB_BASE = "".join(["https:", "//", "pepy.", "tech/", "projects/"])
 GH_BASE = "".join(["https:", "//", "github.", "com/", GITHUB_USER, "/"])
 DP_BASE = "".join(["https:", "//", "djangopackages.", "org/", "packages/", "p/"])
+DOCS_BASE = "https://django-octo.readthedocs.io/en/latest/"
 
 
 def get_dp_score(slug):
@@ -42,6 +43,7 @@ for pkg in PACKAGES:
     pypi_name = pkg["pypi"]
     repo_name = pkg["repo"]
     dp_slug = pkg["dp_slug"]
+    docs_path = pkg["docs_path"]
     url = API_BASE + pypi_name
 
     resp = requests.get(url, headers=headers, timeout=15)
@@ -64,18 +66,19 @@ for pkg in PACKAGES:
     repo_link = f"[{pypi_name}]({GH_BASE}{repo_name})"
     pepy_link = f"[{downloads_fmt}]({WEB_BASE}{pypi_name})"
     dp_link = f"[{score}]({DP_BASE}{dp_slug}/)"
+    docs_link = f"[Read the Docs ↗]({DOCS_BASE}{docs_path})"
 
-    rows.append(f"| {repo_link} | `{latest_version}` | {pepy_link} | {dp_link} |")
+    rows.append(f"| {repo_link} | `{latest_version}` | {pepy_link} | {dp_link} | {docs_link} |")
 
     time.sleep(15)
 
 total_fmt = f"{total_downloads:,}"
 
 table = [
-    "| Package | Latest Version | Total Downloads | Django Packages Score |",
-    "| :--- | :---: | ---: | :---: |",
+    "| Package | Latest Version | Total Downloads | Django Packages Score | Documentation |",
+    "| :--- | :---: | ---: | :---: | :---: |",
     *rows,
-    f"| **Ecosystem Total** | — | **{total_fmt}** | — |",
+    f"| **Ecosystem Total** | — | **{total_fmt}** | — | **[Full Hub ↗]({DOCS_BASE})** |",
 ]
 
 new_content = "\n".join(table)

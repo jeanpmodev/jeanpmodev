@@ -24,6 +24,7 @@
 
 * **Django-Octo Ecosystem** *(Active Open-Source Framework)* — Modular Python/Django enterprise orchestrator and 5 decoupled SaaS-ready engines (SEO, Security, Topology, UML, and QA) published on PyPI with over 8,500 downloads.
 * **[Ticapsoriginal](https://ticapsoriginal.com)** *(Active Production Platform)* — Proprietary IT business intelligence and professional networking engine indexing over 3,200 tech companies across 127 sectors, operating continuously since 2021 and migrating to Django-Octo.
+* **[pypkgscore](https://pypkgscore.onrender.com/)** *(Active Production Platform)* — Automated 0–1000 technical audit platform for PyPI packages evaluating governance, supply chain security (PEP 740 OIDC), PEP metadata, documentation, and CI/CD.
 * **Readtime.pro** *(Legacy / Archived SaaS)* — Multi-product web and mobile SaaS hub engineered with **Python, Django, Flutter, NGINX, Gunicorn, and Linode**, consolidating 15 specialized tools across NLP content optimization, QR/link tracking, SEO auditing, and marketing automation:
 
 #### Archived SaaS

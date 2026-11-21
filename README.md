@@ -8,13 +8,13 @@
 <!-- START_STATS -->
 | Package | Latest Version | Total Downloads | Django Packages Score | Documentation |
 | :--- | :---: | ---: | :---: | :---: |
-| [django-octo](https://github.com/jeanpmodev/django_octo) | `0.1.28` | [7,515](https://pepy.tech/projects/django-octo) | [53](https://djangopackages.org/packages/p/django_octo/) | [Read the Docs ↗](https://django-octo.readthedocs.io/en/latest/) |
-| [django-octo-seo](https://github.com/jeanpmodev/django_octo_seo) | `0.1.8` | [3,112](https://pepy.tech/projects/django-octo-seo) | [48](https://djangopackages.org/packages/p/django_octo_seo/) | [Read the Docs ↗](https://django-octo.readthedocs.io/en/latest/seo/) |
-| [django-octo-security](https://github.com/jeanpmodev/django_octo_security) | `0.1.1` | [1,140](https://pepy.tech/projects/django-octo-security) | [46](https://djangopackages.org/packages/p/django_octo_security/) | [Read the Docs ↗](https://django-octo.readthedocs.io/en/latest/security/) |
-| [django-octo-aurora](https://github.com/jeanpmodev/django_octo_aurora) | `0.1.1` | [663](https://pepy.tech/projects/django-octo-aurora) | [44](https://djangopackages.org/packages/p/django_octo_aurora/) | [Read the Docs ↗](https://django-octo.readthedocs.io/en/latest/aurora/) |
-| [django-octo-uml](https://github.com/jeanpmodev/django_octo_uml) | `0.1.1` | [922](https://pepy.tech/projects/django-octo-uml) | [50](https://djangopackages.org/packages/p/django_octo_uml/) | [Read the Docs ↗](https://django-octo.readthedocs.io/en/latest/uml/) |
-| [django-octo-qa](https://github.com/jeanpmodev/django_octo_qa) | `0.2.0` | [4,068](https://pepy.tech/projects/django-octo-qa) | [50](https://djangopackages.org/packages/p/django_octo_qa/) | [Read the Docs ↗](https://django-octo.readthedocs.io/en/latest/qa/) |
-| **Ecosystem Total** | — | **17,420** | — | **[Full Hub ↗](https://django-octo.readthedocs.io/en/latest/)** |
+| [django-octo](https://github.com/jeanpmodev/django_octo) | `0.1.28` | [7,711](https://pepy.tech/projects/django-octo) | [53](https://djangopackages.org/packages/p/django_octo/) | [Read the Docs ↗](https://django-octo.readthedocs.io/en/latest/) |
+| [django-octo-seo](https://github.com/jeanpmodev/django_octo_seo) | `0.1.8` | [3,236](https://pepy.tech/projects/django-octo-seo) | [48](https://djangopackages.org/packages/p/django_octo_seo/) | [Read the Docs ↗](https://django-octo.readthedocs.io/en/latest/seo/) |
+| [django-octo-security](https://github.com/jeanpmodev/django_octo_security) | `0.1.1` | [1,163](https://pepy.tech/projects/django-octo-security) | [46](https://djangopackages.org/packages/p/django_octo_security/) | [Read the Docs ↗](https://django-octo.readthedocs.io/en/latest/security/) |
+| [django-octo-aurora](https://github.com/jeanpmodev/django_octo_aurora) | `0.1.1` | [673](https://pepy.tech/projects/django-octo-aurora) | [44](https://djangopackages.org/packages/p/django_octo_aurora/) | [Read the Docs ↗](https://django-octo.readthedocs.io/en/latest/aurora/) |
+| [django-octo-uml](https://github.com/jeanpmodev/django_octo_uml) | `0.1.1` | [945](https://pepy.tech/projects/django-octo-uml) | [50](https://djangopackages.org/packages/p/django_octo_uml/) | [Read the Docs ↗](https://django-octo.readthedocs.io/en/latest/uml/) |
+| [django-octo-qa](https://github.com/jeanpmodev/django_octo_qa) | `0.2.0` | [4,198](https://pepy.tech/projects/django-octo-qa) | [50](https://djangopackages.org/packages/p/django_octo_qa/) | [Read the Docs ↗](https://django-octo.readthedocs.io/en/latest/qa/) |
+| **Ecosystem Total** | — | **17,926** | — | **[Full Hub ↗](https://django-octo.readthedocs.io/en/latest/)** |
 <!-- END_STATS -->
 
 ### Stack:

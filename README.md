@@ -53,15 +53,9 @@
 
 * **Product & Strategy:** SaaS Development, End-to-End Product Building, IT Strategy, IT Networking & Behavioral IT Intelligence.
 * **Application Engineering:** Web Development, Mobile Development, Game Development, Internationalization (i18n) & Programmatic Design.
-* **Data & Systems Optimization:** High-Scale Crawling, Massive Pagination, Data Parsing, Regular Expressions, API Management & Distributed AI.
+* **Data & Systems Optimization:** High-Scale Crawling, Massive Pagination, Data Parsing, Regular Expressions & API Management.
 
 ## Marketing Ops
 * [`Marketing Mind`](https://gitmind.com/app/docs/mhyf2ysz) 
 20 marketing ops
 100 branchs
-
-
-
-
-
-
